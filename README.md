@@ -8,9 +8,4 @@ For showing map leaflet a javascript library is used and the server is made usin
 The response is in the polyline encoded format and using python's polyline library we decode the response and fetch coordinates.
 after fetching the coordinates are drawn in the map and shown it to the user.
 
-Deployment:
 
-The web app is deployed in Azure app service.
-Open App service in azure. select resource group and give name, location, etc.
-select deployment slots tab and select from Github project.
-The selected source code is deployed using Github actions.
